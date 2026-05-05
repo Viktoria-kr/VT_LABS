@@ -1,0 +1,14 @@
+/home/burba_av/Documents/Code/C#/LAB03/bin/Debug/net10.0/LAB03
+/home/burba_av/Documents/Code/C#/LAB03/bin/Debug/net10.0/LAB03.deps.json
+/home/burba_av/Documents/Code/C#/LAB03/bin/Debug/net10.0/LAB03.runtimeconfig.json
+/home/burba_av/Documents/Code/C#/LAB03/bin/Debug/net10.0/LAB03.dll
+/home/burba_av/Documents/Code/C#/LAB03/bin/Debug/net10.0/LAB03.pdb
+/home/burba_av/Documents/Code/C#/LAB03/obj/Debug/net10.0/LAB03.GeneratedMSBuildEditorConfig.editorconfig
+/home/burba_av/Documents/Code/C#/LAB03/obj/Debug/net10.0/LAB03.AssemblyInfoInputs.cache
+/home/burba_av/Documents/Code/C#/LAB03/obj/Debug/net10.0/LAB03.AssemblyInfo.cs
+/home/burba_av/Documents/Code/C#/LAB03/obj/Debug/net10.0/LAB03.csproj.CoreCompileInputs.cache
+/home/burba_av/Documents/Code/C#/LAB03/obj/Debug/net10.0/LAB03.dll
+/home/burba_av/Documents/Code/C#/LAB03/obj/Debug/net10.0/refint/LAB03.dll
+/home/burba_av/Documents/Code/C#/LAB03/obj/Debug/net10.0/LAB03.pdb
+/home/burba_av/Documents/Code/C#/LAB03/obj/Debug/net10.0/LAB03.genruntimeconfig.cache
+/home/burba_av/Documents/Code/C#/LAB03/obj/Debug/net10.0/ref/LAB03.dll

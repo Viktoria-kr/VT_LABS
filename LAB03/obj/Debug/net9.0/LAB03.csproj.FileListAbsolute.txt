@@ -1,0 +1,14 @@
+C:\Users\Smile\Downloads\LAB03\LAB03\bin\Debug\net9.0\LAB03.exe
+C:\Users\Smile\Downloads\LAB03\LAB03\bin\Debug\net9.0\LAB03.deps.json
+C:\Users\Smile\Downloads\LAB03\LAB03\bin\Debug\net9.0\LAB03.runtimeconfig.json
+C:\Users\Smile\Downloads\LAB03\LAB03\bin\Debug\net9.0\LAB03.dll
+C:\Users\Smile\Downloads\LAB03\LAB03\bin\Debug\net9.0\LAB03.pdb
+C:\Users\Smile\Downloads\LAB03\LAB03\obj\Debug\net9.0\LAB03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Smile\Downloads\LAB03\LAB03\obj\Debug\net9.0\LAB03.AssemblyInfoInputs.cache
+C:\Users\Smile\Downloads\LAB03\LAB03\obj\Debug\net9.0\LAB03.AssemblyInfo.cs
+C:\Users\Smile\Downloads\LAB03\LAB03\obj\Debug\net9.0\LAB03.csproj.CoreCompileInputs.cache
+C:\Users\Smile\Downloads\LAB03\LAB03\obj\Debug\net9.0\LAB03.dll
+C:\Users\Smile\Downloads\LAB03\LAB03\obj\Debug\net9.0\refint\LAB03.dll
+C:\Users\Smile\Downloads\LAB03\LAB03\obj\Debug\net9.0\LAB03.pdb
+C:\Users\Smile\Downloads\LAB03\LAB03\obj\Debug\net9.0\LAB03.genruntimeconfig.cache
+C:\Users\Smile\Downloads\LAB03\LAB03\obj\Debug\net9.0\ref\LAB03.dll
