@@ -1,0 +1,17 @@
+D:\VT_LABS\LAB07\LAB07\bin\Debug\net8.0-windows7.0\LAB07.exe
+D:\VT_LABS\LAB07\LAB07\bin\Debug\net8.0-windows7.0\LAB07.deps.json
+D:\VT_LABS\LAB07\LAB07\bin\Debug\net8.0-windows7.0\LAB07.runtimeconfig.json
+D:\VT_LABS\LAB07\LAB07\bin\Debug\net8.0-windows7.0\LAB07.dll
+D:\VT_LABS\LAB07\LAB07\bin\Debug\net8.0-windows7.0\LAB07.pdb
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\LAB07.Form1.resources
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\LAB07.csproj.GenerateResource.cache
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\LAB07.GeneratedMSBuildEditorConfig.editorconfig
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\LAB07.AssemblyInfoInputs.cache
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\LAB07.AssemblyInfo.cs
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\LAB07.csproj.CoreCompileInputs.cache
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\LAB07.sourcelink.json
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\LAB07.dll
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\refint\LAB07.dll
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\LAB07.pdb
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\LAB07.genruntimeconfig.cache
+D:\VT_LABS\LAB07\LAB07\obj\Debug\net8.0-windows7.0\ref\LAB07.dll
