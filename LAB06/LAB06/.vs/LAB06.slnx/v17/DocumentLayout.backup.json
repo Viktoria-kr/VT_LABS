@@ -7,8 +7,19 @@
       "RelativeMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|d:\\vt_labs\\lab06\\lab06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|d:\\vt_labs\\lab06\\lab06\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|d:\\vt_labs\\lab06\\lab06\\lab06.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|solutionrelative:lab06.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|d:\\vt_labs\\lab06\\lab06\\lab06.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|solutionrelative:lab06.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.314\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,25 +37,59 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\VT_LABS\\LAB06\\LAB06\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\VT_LABS\\LAB06\\LAB06\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAMcBAAAAAAAAAAAqwOIBAAABAAAAAAAAAA==",
+              "ToolTip": "D:\\VT_LABS\\LAB06\\LAB06\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AgIAAMgBAAAAAAAAAAAUwOgBAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T16:02:36.457Z",
+              "WhenOpened": "2026-05-25T17:15:45.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LAB06.csproj",
+              "DocumentMoniker": "D:\\VT_LABS\\LAB06\\LAB06\\LAB06.csproj",
+              "RelativeDocumentMoniker": "LAB06.csproj",
+              "ToolTip": "D:\\VT_LABS\\LAB06\\LAB06\\LAB06.csproj",
+              "RelativeToolTip": "LAB06.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-25T17:11:35.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.314\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.314\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AgIAAJIAAAAAAAAAAAArwKoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-05-25T17:11:13.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LAB06",
+              "DocumentMoniker": "D:\\VT_LABS\\LAB06\\LAB06\\LAB06.csproj",
+              "RelativeDocumentMoniker": "LAB06.csproj",
+              "ToolTip": "D:\\VT_LABS\\LAB06\\LAB06\\LAB06.csproj",
+              "RelativeToolTip": "LAB06.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-25T17:08:26.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\VT_LABS\\LAB06\\LAB06\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\VT_LABS\\LAB06\\LAB06\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\VT_LABS\\LAB06\\LAB06\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\VT_LABS\\LAB06\\LAB06\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T16:01:53.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T17:07:46.524Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         }

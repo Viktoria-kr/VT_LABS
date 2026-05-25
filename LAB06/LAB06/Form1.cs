@@ -2,7 +2,7 @@ namespace LAB06
 {
     public partial class Form1 : Form
     {
-        private Label? display;
+        private Label display;
 
         // Переменные, необходимые для логики приложения, не меняем.
         private string currentInput = "0";
@@ -14,6 +14,8 @@ namespace LAB06
         public Form1()
         {
             // TODO: 1.0 Собрать и запустить проект
+            InitializeComponent();
+
             // TODO: 1.1 Удалить вызов метода InitializeComponent()
             // Вызвать метод InitUI для инициализации интерфейса калькулятора (показать интерфейс)
             // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
@@ -24,31 +26,31 @@ namespace LAB06
         {
             // ================= 2. Свойства формы (окна калькулятора) =================
             // TODO: 2.1 Подписать главное окно своим ФИО (Свойство формы Text)
-            this.Text = "Калькулятор - Виктория";
 
             // TODO: 2.2 Задать размер окна = 800x600 (Свойство формы Size)
-            this.Size = new Size(800, 600);
 
             // TODO: 2.3 Задать цвет фона Color.FromArgb(30, 30, 30) (Свойство формы BackColor)
-            this.BackColor = Color.FromArgb(30, 30, 30);
             // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
+            this.Text = "Калькулятор - Красницкая Виктория Леонидовна";
+            this.Size = new Size(800, 600);
+            this.BackColor = Color.FromArgb(30, 30, 30);
 
             // ================= 3. Главный контейнер =================
             TableLayoutPanel main = new TableLayoutPanel();
 
             // TODO: 3.1 Растянуть контейнера по всей ширине и длине занимаемого родителя (Свойство контейнера Dock/DockStyle.Fill)
-            main.Dock = DockStyle.Fill;
 
             // TODO: 3.2 Задать число строк в контейнере = 2, число столбцов = 1 (Свойства контейнера RowCount, ColumnCount)
-            main.RowCount = 2;
-            main.ColumnCount = 1;
 
             // TODO: 3.3 Задать размер первой строки таблицы = точно 120px
             // Свойство RowStyles.Add(new RowStyle(SizeType.Absolute, ...))
-            main.RowStyles.Add(new RowStyle(SizeType.Absolute, 120f));
 
             // TODO: 3.4 Задать размер второй строки таблицы = 100 (проценты)
             // Свойство RowStyles.Add(new RowStyle(SizeType.Percent, ...))
+            main.Dock = DockStyle.Fill;
+            main.RowCount = 2;
+            main.ColumnCount = 1;
+            main.RowStyles.Add(new RowStyle(SizeType.Absolute, 120f));
             main.RowStyles.Add(new RowStyle(SizeType.Percent, 100f));
 
             this.Controls.Add(main);
@@ -58,30 +60,41 @@ namespace LAB06
             displayPanel.BorderStyle = BorderStyle.FixedSingle;
 
             // TODO: 4.1 Растянуть displayPanel по всей ширине и длине занимаемого родителя (Свойство контейнера Dock/DockStyle.Fill)
-            displayPanel.Dock = DockStyle.Fill;
 
             display = new Label();
 
             // TODO: 4.2 Растянуть display по всей ширине и длине занимаемого контейнера (Свойство контейнера Dock/DockStyle.Fill)
-            display.Dock = DockStyle.Fill;
 
             // TODO: 4.3 Задать display начальный текст = "0" (Свойство Text)
-            display.Text = "0";
 
             // TODO: 4.4 Задать цвет текста display белым (Свойство ForeColor (Color.White))
-            display.ForeColor = Color.White;
             // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
 
             // TODO: 4.5 Задать шрифт текста display ("JetBrains Mono NL", размер = 30) (Свойство Font = new Font(..., ...))
-            display.Font = new Font("Consolas", 30f);
 
             // TODO: 4.6 Задать выравнивание текста внутри display по нижней-правой стороне
             // (Свойство TextAligh (ContentAlignment.BottomRight))
-            display.TextAlign = ContentAlignment.BottomRight;
 
             // TODO: 4.7 Задать внутренние display отступы = 10 (Свойство Padding = new Padding(...))
-            display.Padding = new Padding(10);
             // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
+            displayPanel.Dock = DockStyle.Fill;
+
+            display = new Label();
+            display.Dock = DockStyle.Fill;
+            display.Text = "0";
+            display.ForeColor = Color.White;
+
+            try
+            {
+                display.Font = new Font("JetBrains Mono NL", 30f);
+            }
+            catch
+            {
+                display.Font = new Font("Consolas", 30f);
+            }
+
+            display.TextAlign = ContentAlignment.BottomRight;
+            display.Padding = new Padding(10);
 
             displayPanel.Controls.Add(display);
             main.Controls.Add(displayPanel, 0, 0);
@@ -91,27 +104,27 @@ namespace LAB06
             grid.CellBorderStyle = TableLayoutPanelCellBorderStyle.Inset;
 
             // TODO: 5.1 Растянуть grid по всей ширине и длине занимаемого родителя (Свойство контейнера Dock/DockStyle.Fill)
-            grid.Dock = DockStyle.Fill;
             // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
 
             // TODO: 5.2 Задать число строк в контейнере кнопок = 6, число столбцов = 4 (Свойства контейнера RowCount, ColumnCount)
+
+            grid.Dock = DockStyle.Fill;
             grid.RowCount = 6;
             grid.ColumnCount = 4;
-
             for (int i = 0; i < 6; i++)
             {
                 // TODO: 5.3 Задать размер каждой строки grid контейнера = 100f / 6 (проценты)
                 // Свойство RowStyles.Add(new RowStyle(SizeType.Percent, ...))
-                grid.RowStyles.Add(new RowStyle(SizeType.Percent, 100f / 6f));
                 // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
+                grid.RowStyles.Add(new RowStyle(SizeType.Percent, 100f / 6f));
             }
 
             for (int j = 0; j < 4; j++)
             {
                 // TODO: 5.4 Задать размер каждого столбца grid контейнера = 25 (проценты)
                 // Свойство ColumnStyles.Add(new ColumnStyle(SizeType.Percent, ...))
-                grid.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25f));
                 // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
+                grid.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25f));
             }
 
             main.Controls.Add(grid, 0, 1);
@@ -134,7 +147,6 @@ namespace LAB06
 
                     // TODO: 6.1 Создать кнопку (объект Button btn) с помощью метода CreateButton(text)
                     Button btn = CreateButton(text);
-
                     if (text == "=")
                     {
                         // TODO: 6.2 Если текст текущей кнопки = "=" - задать ей цвет Color.FromArgb(0, 120, 215)
@@ -144,7 +156,6 @@ namespace LAB06
 
                     // TODO: 6.3 Добавить обработчик события нажатия кнопки (метод OnButtonClick)
                     btn.Click += OnButtonClick;
-
                     // TODO: 6.4 Добавить кнопки в сетку grid (Раскоментировать строку ниже)
                     // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
 
@@ -159,35 +170,35 @@ namespace LAB06
 
             // TODO: 6.5 Текст кнопки = аргументу метода CreateButton (Свойство Text)
             btn.Text = text;
-
             // TODO: 6.6 Растянуть кнопку по размеру ячейки таблицы (Свойство Кнопки Dock/DockStyle.Fill)
-            btn.Dock = DockStyle.Fill;
             // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
-
+            btn.Dock = DockStyle.Fill;
             // TODO: 6.7 Задать шрифт текста ("JetBrains Mono NL", размер = 14) (Свойство Font)
-            btn.Font = new Font("Consolas", 14f);
-
+            try
+            {
+                btn.Font = new Font("JetBrains Mono NL", 14f);
+            }
+            catch
+            {
+                btn.Font = new Font("Consolas", 14f);
+            }
             // TODO: 6.8 Задать цвет фона Color.FromArgb(50, 50, 50) (Свойство BackColor)
             btn.BackColor = Color.FromArgb(50, 50, 50);
-
             // TODO: 6.9 Задать цвет шрифта Color.White (Свойство ForeColor)
-            btn.ForeColor = Color.White;
             // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
-
+            btn.ForeColor = Color.White;
             // TODO: 6.10 Сделать кнопки плоскими Свойство FlatStyle (FlatStyle.Flat)
             // и убрать границы Свойство FlatAppearance.BorderSize (0)
+            // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
             btn.FlatStyle = FlatStyle.Flat;
             btn.FlatAppearance.BorderSize = 0;
-            // (ЗАПУСТИТЬ ПРОЕКТ - СДЕЛАТЬ СКРИНШОТ)
-
             return btn;
         }
 
         // ===== 7. ОБРАБОТКА НАЖАТИЙ =====
 
-        private void OnButtonClick(object? sender, EventArgs e)
+        private void OnButtonClick(object sender, EventArgs e)
         {
-            if (sender == null) return;
             Button btn = (Button)sender;
             string text = btn.Text;
 
@@ -279,8 +290,8 @@ namespace LAB06
             }
 
             // TODO: 8.2 Вызвать метод UpdateDisplay
-            UpdateDisplay();
             // (ЗАПУСТИТЬ ПРОЕКТ - ПОПРОБАВАТЬ НАЖАТЬ НА КНОПКИ ЦИФР - СДЕЛАТЬ СКРИНШОТ)
+            UpdateDisplay();
         }
 
         private void AddDot()
@@ -290,14 +301,14 @@ namespace LAB06
                 currentInput = "0.";
                 newInput = false;
             }
-            else if (!currentInput.Contains(".") && !currentInput.Contains(","))
+            else if (!currentInput.Contains("."))
             {
-                currentInput += ".";
+                currentInput += ",";
             }
 
             // TODO: 8.3 Вызвать метод UpdateDisplay
-            UpdateDisplay();
             // (ЗАПУСТИТЬ ПРОЕКТ - ПОПРОБАВАТЬ НАЖАТЬ НА КНОПКУ ТОЧКИ - СДЕЛАТЬ СКРИНШОТ)
+            UpdateDisplay();
         }
 
         private void SetOperation(string op)
@@ -329,8 +340,8 @@ namespace LAB06
                 currentInput = result.ToString("G29");
                 newInput = true;
                 // TODO: 8.4 Вызвать метод UpdateDisplay
-                UpdateDisplay();
                 // (ЗАПУСТИТЬ ПРОЕКТ - ПОПРОБАВАТЬ ПРОВЕСТИ ОПЕРАЦИИ МЕЖДУ 2 ЧИСЛАМИ - СДЕЛАТЬ СКРИНШОТ)
+                UpdateDisplay();
             }
             catch (OverflowException)
             {
@@ -354,8 +365,8 @@ namespace LAB06
             newInput = true;
 
             // TODO: 8.5 Вызвать метод UpdateDisplay
-            UpdateDisplay();
             // (ЗАПУСТИТЬ ПРОЕКТ - ПОПРОБАВАТЬ НАЖАТЬ НА КНОПКИ CE, C - СДЕЛАТЬ СКРИНШОТ)
+            UpdateDisplay();
         }
 
         private void Backspace()
@@ -371,8 +382,8 @@ namespace LAB06
             }
 
             // TODO: 8.6 Вызвать метод UpdateDisplay
-            UpdateDisplay();
             // (ЗАПУСТИТЬ ПРОЕКТ - ПОПРОБАВАТЬ НАЖАТЬ НА КНОПКУ ⌫ - СДЕЛАТЬ СКРИНШОТ)
+            UpdateDisplay();
         }
 
         private void ToggleSign()
@@ -386,8 +397,8 @@ namespace LAB06
             }
 
             // TODO: 8.7 Вызвать метод UpdateDisplay
-            UpdateDisplay();
             // (ЗАПУСТИТЬ ПРОЕКТ - ПОПРОБАВАТЬ НАЖАТЬ НА КНОПКУ +- - СДЕЛАТЬ СКРИНШОТ)
+            UpdateDisplay();
         }
 
         private void Percent()
@@ -396,8 +407,8 @@ namespace LAB06
             currentInput = (value / 100).ToString();
 
             // TODO: 8.8 Вызвать метод UpdateDisplay
-            UpdateDisplay();
             // (ЗАПУСТИТЬ ПРОЕКТ - ПОПРОБАВАТЬ НАЖАТЬ НА КНОПКУ % - СДЕЛАТЬ СКРИНШОТ)
+            UpdateDisplay();
         }
 
         private void Inverse()
@@ -415,8 +426,8 @@ namespace LAB06
                 newInput = true;
 
                 // TODO: 8.9 Вызвать метод UpdateDisplay
-                UpdateDisplay();
                 // (ЗАПУСТИТЬ ПРОЕКТ - ПОПРОБАВАТЬ НАЖАТЬ НА КНОПКУ 1/x - СДЕЛАТЬ СКРИНШОТ)
+                UpdateDisplay();
             }
             catch (OverflowException)
             {
@@ -439,8 +450,8 @@ namespace LAB06
                 newInput = true;
 
                 // TODO: 8.10 Вызвать метод UpdateDisplay
-                UpdateDisplay();
                 // (ЗАПУСТИТЬ ПРОЕКТ - ПОПРОБАВАТЬ НАЖАТЬ НА КНОПКУ x² - СДЕЛАТЬ СКРИНШОТ)
+                UpdateDisplay();
             }
             catch (OverflowException)
             {
@@ -463,8 +474,8 @@ namespace LAB06
                 newInput = true;
 
                 // TODO: 8.11 Вызвать метод UpdateDisplay
-                UpdateDisplay();
                 // (ЗАПУСТИТЬ ПРОЕКТ - ПОПРОБАВАТЬ НАЖАТЬ НА КНОПКУ √x - СДЕЛАТЬ СКРИНШОТ)
+                UpdateDisplay();
             }
             catch
             {
