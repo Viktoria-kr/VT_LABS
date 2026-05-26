@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|d:\\vt_labs\\lab06\\lab06\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|D:\\VT_LABS\\LAB06\\LAB06\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3DC66AB8-3AAB-6775-D1A5-1A03614A4346}|LAB06.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "LAB06.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-25T17:11:35.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T17:11:35.763Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "ToolTip": "D:\\VT_LABS\\LAB06\\LAB06\\LAB06.csproj",
               "RelativeToolTip": "LAB06.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-25T17:08:26.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T17:08:26.175Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "ToolTip": "D:\\VT_LABS\\LAB06\\LAB06\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T17:07:46.524Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-05-25T17:07:46.524Z"
             }
           ]
         }
